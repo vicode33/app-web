@@ -1,0 +1,47 @@
+<%- include('layouts/header') %>
+<main class="cart-container">
+    <h3>Carriito de Compras</h3>
+    <section class="cart">
+        <div class="cart-item">
+            <img src="/img/robot.png" alt="Robot Educativo">
+            <div>
+                <h2>Robot Educativo</h2>
+                <p>Precio: $80.99</p>
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="/img/dron.png" alt="Dron para Niños">
+            <div>
+                <h2>Dron para Niños</h2>
+                <p>Precio: $399.99</p>
+            </div>
+        </div>
+        <div class="cart-item">
+            <img src="/img/arduino.png" alt="Kit de Arduino">
+            <div>
+                <h2>Kit de Arduino</h2>
+                <p>Precio: $135.99</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="payment-methods">
+        <h2>Métodos de Pago</h2>
+        <div class="payment-icons">
+            <img src="/img/visa.svg" alt="Visa">
+            <img src="/img/mastercard.svg" alt="Mastercard">
+            <img src="/img/paypal.svg" alt="PayPal">
+            <img src="/img/transfer.svg" alt="Transferencia Bancaria">
+        </div>
+    </section>
+
+    <section class="cart-summary">
+        <p>Subtotal: $616.97</p>
+        <p>Impuesto (7%): $43.19</p>
+        <p><strong>Total: $660.16</strong></p>
+        <a href="#" class="checkout-button">Realizar Compra</a>
+    </section>
+    
+    
+</main>
+<%- include('layouts/footer') %>
